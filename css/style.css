@@ -1,0 +1,213 @@
+
+html,
+body {
+    height: 100%;
+    background-color: #F5F9FB;
+    font-family: 'raleway';
+    font-weight: 200;
+    color: rgba(34, 35, 38, 0.8);
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 100;
+    src: url('../font-poppins/Poppins-Thin.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 100;
+    src: url('../font-poppins/raleway/Raleway-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 200;
+    src: url('../font-poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'raleway';
+    font-weight: 200;
+    src: url('../font-poppins/raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 300;
+    src: url('../font-poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 300;
+    src: url('../font-poppins/raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 400;
+    src: url('../font-poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 400;
+    src: url('../font-poppins/raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 500;
+    src: url('../font-poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 500;
+    src: url('../font-poppins/raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 600;
+    src: url('../font-poppins/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 600;
+    src: url('../font-poppins/raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 700;
+    src: url('../font-poppins/Poppins-ExtraBold.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 700;
+    src: url('../font-poppins/raleway/Raleway-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins';
+    font-weight: 800;
+    src: url('../font-poppins/Poppins-Black.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    font-weight: 800;
+    src: url('../font-poppins/raleway/Raleway-Black.ttf');
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px !important;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+h2 {
+    font-size: 30px !important;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+h3 {
+    font-size: 25px !important;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+h4 {
+    font-size: 20px !important;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+h5 {
+    font-size: 20px !important;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+h6 {
+    font-size: 18px !important;
+    font-family: 'poppins';
+    font-weight: normal;
+}
+span{
+    font-size: 14px !important;
+}
+a {
+    text-decoration: none !important;
+}
+/* main card */
+.card{
+    border-radius: 2rem !important;
+    padding: 5% ;
+    background-color: aqua !important;
+}
+/* signup form  left section*/
+.signup-form h1 {
+    font-weight: 800;    
+    font-size: 3.5rem !important;
+}
+.red{
+    color: red;
+}
+.signup-form .third-party-signup {
+    font-weight: 800 !important;
+}
+.signup-hr {
+    height: 2px;
+    width: 3rem;
+    background-color: red;
+    margin-right: 1.5rem;
+}
+/* .third-party-signup::before {
+    content: "____";
+    font-weight: 600;
+    height: 1rem;
+    width: 4rem;
+    margin: 0 1rem 0 0rem;
+    transform: translateY(-1rem);
+  } */
+  input#fname {
+    width: 85%;    
+    height: 2.5rem;
+    border-radius: 10px;
+    outline: none !important;
+}
+input#lname {
+    width: 85%;
+    height: 2.5rem;
+    border-radius: 10px;
+    outline: none !important;
+}
+input#pwd {
+    width: 74%;
+    height: 2.5rem;
+    border-radius: 10px;
+    outline: none !important;
+}
+ 
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 4px !important;
+    margin-right: 10px !important;
+}
+
+button.btn.btn-danger {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px rgba(245, 121, 121, 0.75);
+}
+/* rocket img right section */
+.rocket img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

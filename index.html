@@ -22,9 +22,10 @@
 <body>
 
 
-<section class="card">
+<section class="main-section">
        <div class="container-fluid ">
-           <div class="row ">
+           <div class="card ">
+               <div class=" row">
                 <div class="col-xs-12 col-md-6 col-lg-6 loc">
                     <div class="signup-form">
                         <h1>Sign Up</h1>
@@ -36,24 +37,25 @@
                                 <span class="third-party-signup red "> sign up with</span>
                             </div>
                         </div>
+                        <div class="card-inner">
                         <div class="login-btn my-4 d-flex">
-                            <div class="mr-5">
-                                <a class="btn btn-outline-dark" href="/users/googleauth" role="button" style="text-transform:none">
-                                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
-                                        Sign with Google
+                            <div class="mr-5 my-1">
+                                <a class="btn btn-outline-dark google" href="/users/googleauth" role="button" style="text-transform:none">
+                                        <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="" src="./img/bell.svg" />
+                                        Sign up with Google
                                       </a>
                             </div>
-                            <div>
+                            <div class="my-1">
                                 <a class="btn btn-outline-dark" href="/users/googleauth" role="button" style="text-transform:none">
                                         <img width="20px" style="margin-bottom:3px; margin-right:5px" alt="" src="./img/bell.svg" />
-                                        Sign with Facebook
+                                        Sign up with Facebook
                                       </a>
                             </div>
                         </div>
                         <div class="login-fields ">
                             <form action="/action_page.php">
                                 <div class="d-flex">
-                                <div class="mr-4">
+                                <div class="mr-5">
                                     <label for="fname">Name</label><br>
                                     <input type="text" id="fname" name="fname" value="John"><br>
                                 </div>
@@ -82,6 +84,7 @@
                                     <span class="red"> Signin</span>
                                 </div>
                         </div>
+                    </div>
                         
                     </div>
                     
@@ -93,7 +96,7 @@
                     </div>
                 </div>
            </div>
-                
+        </div>      
         </div>
 </section>
 

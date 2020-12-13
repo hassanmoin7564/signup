@@ -2,7 +2,7 @@
 html,
 body {
     height: 100%;
-    background-color: #F5F9FB;
+    background-color: rgb(255, 255, 255);
     font-family: 'raleway';
     font-weight: 200;
     color: rgba(34, 35, 38, 0.8);
@@ -141,10 +141,19 @@ a {
     text-decoration: none !important;
 }
 /* main card */
+.main-section{
+    background-color: white;
+}
 .card{
     border-radius: 2rem !important;
     padding: 5% ;
-    background-color: aqua !important;
+    margin: 5%;
+    background-color: rgb(173, 194, 253) !important;
+}
+/* inner  */
+.card-inner{
+    background-color: violet;
+    width: 470px;
 }
 /* signup form  left section*/
 .signup-form h1 {
@@ -172,19 +181,19 @@ a {
     transform: translateY(-1rem);
   } */
   input#fname {
-    width: 85%;    
+    width: 100%;    
     height: 2.5rem;
     border-radius: 10px;
     outline: none !important;
 }
 input#lname {
-    width: 85%;
+    width: 100%;
     height: 2.5rem;
     border-radius: 10px;
     outline: none !important;
 }
 input#pwd {
-    width: 74%;
+    width: 98%;
     height: 2.5rem;
     border-radius: 10px;
     outline: none !important;
@@ -211,3 +220,24 @@ button.btn.btn-danger {
     align-items: center;
     
 }
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    .card{
+        border-radius: 2rem !important;
+        padding: 2% ;
+        margin: 1%;
+    }
+    .login-btn.my-4.d-flex {
+        /* display: flex; */
+        flex-direction: column;
+        align-items: center !important;
+    }
+    .card-inner {
+        width: 270px;
+    }
+    a.btn.btn-outline-dark.google {
+        padding: 5px 29px 5px 14px;
+    }
+    .mr-5.my-1 {
+        margin: 0px !important;
+    }
+    }

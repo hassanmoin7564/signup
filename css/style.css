@@ -152,7 +152,6 @@ a {
 }
 /* inner  */
 .card-inner{
-    background-color: violet;
     width: 470px;
 }
 /* signup form  left section*/
@@ -172,14 +171,7 @@ a {
     background-color: red;
     margin-right: 1.5rem;
 }
-/* .third-party-signup::before {
-    content: "____";
-    font-weight: 600;
-    height: 1rem;
-    width: 4rem;
-    margin: 0 1rem 0 0rem;
-    transform: translateY(-1rem);
-  } */
+
   input#fname {
     width: 100%;    
     height: 2.5rem;
@@ -227,7 +219,6 @@ button.btn.btn-danger {
         margin: 1%;
     }
     .login-btn.my-4.d-flex {
-        /* display: flex; */
         flex-direction: column;
         align-items: center !important;
     }
